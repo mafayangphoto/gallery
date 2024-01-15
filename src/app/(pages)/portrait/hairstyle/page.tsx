@@ -4,7 +4,7 @@ import { hairImages } from './imagesLib';
 
 function page() {
   return (
-    <div className='w-full flex px-2.5'>
+    <div className='w-full flex px-2.5 flex-col sm:flex-row'>
         <div className='flex w-full sm:w-2/5'>
             <div >
                 {hairImages.blockOne.map((img,idx:number) => {

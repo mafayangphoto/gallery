@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 function PortalTab() {
-    const [tabList] = useState([{name:'Home',hasChild:false},{name:'portrait',hasChild:true},{name:'product',hasChild:true},{name:'event',hasChild:true},{name:'contactme',hasChild:false}])
+    const [tabList] = useState([{name:'Home',hasChild:false,allowClick:true},{name:'portrait',hasChild:true,allowClick:true},{name:'product',hasChild:true,allowClick:false},{name:'event',hasChild:true,allowClick:false},{name:'about',hasChild:false,allowClick:true}])
     const [dropList,setDropList] = useState<{key:string,text:string}[]>([]);
     const [tabFloat,setTabFloat] = useState({width:0,top:0,left:0,right:0,bottom:0});
 
@@ -48,7 +48,7 @@ function PortalTab() {
         <div className='w-9/12 flex flex-row'>
             {tabList.map((tab,idx) => {
                 return(
-                    <Link href={`/${tab.name}`} key={`tab${idx}`} className='w-1/5 items-center justify-center flex cursor-pointer container' onMouseEnter={(e) => {handleMouse(e,tab.name)}} ><span className='text-black'>{tab.name.toUpperCase()}</span>
+                    <Link href={tab.allowClick ? `/${tab.name}` : ''} key={`tab${idx}`} className='w-1/5 items-center justify-center flex cursor-pointer container' onMouseEnter={(e) => {handleMouse(e,tab.name)}} ><span className='text-black'>{tab.name.toUpperCase()}</span>
                         {tab.hasChild && dropList.length > 0 && <div className='absolute border border-orange-100 rounded dropdown flex flex-col' style={{"minWidth":`${tabFloat.width}px`,"top": `${tabFloat.top}px`, "left": `${tabFloat.left}px`}}>
                             {dropList.map((item,index:number) => {
                                 return(

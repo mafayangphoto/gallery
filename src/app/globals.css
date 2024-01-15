@@ -52,3 +52,30 @@
   opacity: 1;
   visibility: visible;
 }
+
+figure {
+  clip-path: polygon(48% 5%, 34% 45%, 62% 45%);
+  /* height: 753px; */
+  margin: 0;
+  padding: 0;
+  /* padding-top: 100px; */
+  overflow: hidden;
+ }
+
+ .Buy_me_drink figure  {
+  transform: rotate(0) scale(1);
+  transition: 1s ease-in-out;
+ }
+ .Buy_me_drink figure.hover  {
+  transform: rotate(360deg) scale(4);
+ }
+ .Buy_me_drink figure img {
+  transform: rotate(0) scale(1);
+  transition: 1s ease-in-out;
+ }
+ .Buy_me_drink figure img.hover {
+  transform: rotate(-360deg) scale(0.25);
+  padding-top: 200px;
+  height: 2000px;
+  margin-bottom: 200px;
+ }

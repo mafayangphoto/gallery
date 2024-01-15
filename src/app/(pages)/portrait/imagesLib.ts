@@ -3,6 +3,14 @@ import React from "react";
 export const portraitImages = {
     blockOne: [
         {
+            url:'./images/2W9A3218.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A4031.jpg',
+            size:'horizontal'
+        },
+        {
             url:'./images/IMG_7562-1.jpg',
             size:'vertical'
         },
@@ -21,6 +29,14 @@ export const portraitImages = {
         
     ],
     blockTwo: [
+        {
+            url:'./images/2W9A3809.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A7215.jpg',
+            size:'vertical'
+        },
         {
             url:'./images/IMG_9011.jpg',
             size:'vertical'
@@ -41,6 +57,14 @@ export const portraitImages = {
         
     ],
     blockThree: [
+        {
+            url:'./images/2W9A3840.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/IMG_755.jpg',
+            size:'vertical'
+        },
         {
             url:'./images/IMG_5664.jpg',
             size:'vertical'

@@ -4,8 +4,8 @@ import { accessoryImages } from './imagesLib';
 
 function page() {
   return (
-    <div className='w-full flex px-2.5'>
-        <div className='flex w-2/5'>
+    <div className='w-full flex px-2.5 flex-col sm:flex-row'>
+        <div className='flex w-full sm:w-2/5'>
             <div >
                 {accessoryImages.blockOne.map((img,idx:number) => {
                     return(
@@ -15,7 +15,7 @@ function page() {
                 
             </div>
         </div>
-        <div className='flex w-2/5'>
+        <div className='flex w-full sm:w-2/5'>
             <div >
                 {accessoryImages.blockTwo.map((img,idx:number) => {
                     return(
@@ -25,7 +25,7 @@ function page() {
                 
             </div>
         </div>
-        <div className='flex w-2/5'>
+        <div className='flex w-full sm:w-2/5'>
             <div >
                 {accessoryImages.blockThree.map((img,idx:number) => {
                     return(
