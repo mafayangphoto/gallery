@@ -22,7 +22,7 @@ function PortalTab() {
                 setDropList([
                     // {key:'beauty',text:'Beauty'},
                     {key:'creative',text:'Creative'},
-                    {key:'hairstyle',text:'Hair style'},
+                    // {key:'hairstyle',text:'Hair style'},
                     {key:'laser',text:'Laser'},
                 ]);
             }
