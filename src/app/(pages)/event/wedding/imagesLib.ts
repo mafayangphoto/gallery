@@ -1,6 +1,6 @@
 import React from "react";
 
-export const weddingImages = [
+export const portalWeddingImages = [
     [
         {
             url:'./images/2W9A6509A.jpg',
@@ -115,4 +115,119 @@ export const weddingImages = [
             size:'horizontal'
         },
     ],
+]
+
+export const mobileWeddingImages = [
+    [
+        {
+            url:'./images/2W9A6509A.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/2W9A6172.jpg',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A7538.jpg',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A7579.jpg',
+            size:'vertical'
+        },
+    ],
+    [
+        {
+            url:'./images/2W9A6388.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A6570A.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/2W9A6751.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/nkwo2W9A0828.jpg',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A7685.jpg',
+            size:'vertical'
+        },
+        {
+            url:'./images/nkwo2W9A0848.jpg',
+            size:'vertical'
+        },
+    ],
+    [
+        {
+            url:'./images/2W9A6598.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A6692.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/2W9A8578A.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/nkwo2W9A1218A.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/nkwo2W9A2290.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/nkwo2W9A3083.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/nkwo2W9A3103.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/nkwo2W9A3540.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/nkwo2W9A3869.jpg',
+            size:'horizontal'
+        },
+        {
+            url:'./images/nkwoIMG_9998.jpg',
+            size:'horizontal'
+        },
+    ],
+    [
+        {
+            url:'./images/nkwo2W9A0883.jpg',
+            size:'vertical'
+        },
+        {
+            url:'./images/nkwoIMG_0202.jpg',
+            size:'vertical'
+        },
+    ]
 ]

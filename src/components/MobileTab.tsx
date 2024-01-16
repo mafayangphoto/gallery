@@ -1,12 +1,14 @@
 'use client'
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { HiBars3, HiOutlineXMark, HiHome } from "react-icons/hi2";
 import { MdPortrait } from "react-icons/md";
 import { FaRegCalendarCheck } from "react-icons/fa";
 import { GrContactInfo } from "react-icons/gr";
 import { FiBox } from "react-icons/fi";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import 'animate.css/animate.min.css';
 
 function MobileTab() {
   const [ isBarOpen,setIsBarOpen ] = useState(false);
@@ -42,6 +44,8 @@ function MobileTab() {
           <div className='flex items-center justify-end'><div className='mr-2.5 mt-2.5' onClick={() => {setIsBarOpen(false)}}><HiOutlineXMark className='text-zinc-800 active:text-zinc-400' size={40}/></div></div>
           <div className='grow'>
             <div className={`transition-transform transform duration-300 delay-50 ${isBarOpen ? 'translate-x-0' : '-translate-x-full'} `} >
+              {/* <div className='pl-5 h-10 flex items-center justify-center '><Image className='w-[40px]' src={require('../../public/logo.svg')} alt='logo'/></div> */}
+              <div className='pl-5 h-12 flex items-center justify-center '><span className='text-2xl text-neutral-700'>MAFA_YANG</span></div>
               {tabList.map((tab) => (
                 <div key={tab.name} className='flex flex-col'>
                   <div className='flex flex-row items-center justify-between'>
@@ -51,8 +55,8 @@ function MobileTab() {
                     </Link>
                     { tab.hasChild && ( tab.isOpen ? <div className='mr-5 w-[24px]' onClick={() => {onBarClick(tab)}}><IoIosArrowUp className='text-zinc-800 active:text-zinc-400' size={24}/></div> : <div className='mr-5 w-[24px]' onClick={() => {onBarClick(tab)}}><IoIosArrowDown className='text-zinc-800 active:text-zinc-400' size={24}/></div> )}
                   </div>
-                  <div className='flex flex-col'>
-                    { tab.hasChild && tab.isOpen && tab.childList?.map((child) => (<Link key={child.key} href={`/${tab.name}/${child.key}`} onClick={() => {setIsBarOpen(false)}} className='pl-14 h-9'><span className='text-lg'>{child.text}</span></Link>)) }
+                  <div className={`flex flex-col `}>
+                    { tab.hasChild && tab.isOpen && tab.childList?.map((child) => (<Link key={child.key} href={`/${tab.name}/${child.key}`} onClick={() => {setIsBarOpen(false)}} className='pl-14 h-10 animate__animated animate__fadeIn'><span className='text-lg'>{child.text}</span></Link>)) }
                   </div>
                 </div>
               ))}

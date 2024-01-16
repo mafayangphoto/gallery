@@ -1,12 +1,13 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import { weddingImages } from './imagesLib';
+import { portalWeddingImages, mobileWeddingImages } from './imagesLib';
 
 function page() {
   return (
-    <div className='w-full flex flex-col'>
-        { weddingImages.map((items) => 
+    <>
+    <div className='w-full hidden flex-col sm:flex'>
+        { portalWeddingImages.map((items) => 
             items.length === 1 ? 
             items.map((images) => (
                 <div className='w-full p-1'><Image loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
@@ -30,12 +31,34 @@ function page() {
             : items.length === 3 ? 
             <div className='w-full flex flex-row'>
                 {items.map((images) => (
-                    <div className='w-1/2 p-1'><Image loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
+                    <div className='w-1/3 p-1'><Image loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
                 ))}
             </div>
              : '' 
         )}
     </div>
+    <div className='w-full flex flex-col sm:hidden'>
+        { mobileWeddingImages.map((items) => 
+            items.length === 1 ? 
+            items.map((images) => (
+                <div className='w-full p-1'><Image loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
+            ))
+            : items.length === 2 ? 
+            <div className='w-full flex flex-row'>
+                {items.map((images) => (
+                    <div className='w-1/2 p-1'><Image loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
+                ))}
+            </div>
+            : items.length === 3 ? 
+            <div className='w-full flex flex-row'>
+                {items.map((images) => (
+                    <div className='w-1/3 p-1'><Image loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
+                ))}
+            </div>
+             : '' 
+        )}
+    </div>
+    </>
   )
 }
 

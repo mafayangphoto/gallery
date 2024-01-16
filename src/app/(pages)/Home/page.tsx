@@ -38,10 +38,18 @@ function page() {
         </figure>
       </div>
     </div> */}
-    <div className='w-full h-full hidden sm:block'>
+    <div className='w-full h-full hidden sm:block' >
+      <div className="relative w-0 h-0 border-t-8 border-r-8 border-transparent border-solid">
+        <div
+          className="absolute top-0 left-0 right-0 bottom-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg')" }}
+        ></div>
+      </div>
+    </div>
+    {/* <div className='w-full h-full hidden sm:block'>
       <Image loading='lazy' placeholder='empty' src={require(`./images/IMG_0515.jpg`)} alt={`home`}/>
       <div className='grow'><div className='bg-[#000]'></div></div>
-    </div>
+    </div> */}
     </>
   )
 }
