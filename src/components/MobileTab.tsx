@@ -45,7 +45,7 @@ function MobileTab() {
           <div className='grow'>
             <div className={`transition-transform transform duration-300 delay-50 ${isBarOpen ? 'translate-x-0' : '-translate-x-full'} `} >
               {/* <div className='pl-5 h-10 flex items-center justify-center '><Image className='w-[40px]' src={require('../../public/logo.svg')} alt='logo'/></div> */}
-              <div className='pl-5 h-12 flex items-center justify-center '><span className='text-2xl text-neutral-700'>MAFA_YANG</span></div>
+              <div className='h-12 flex items-center justify-center '><span className='text-2xl text-neutral-700'>MAFA_YANG</span></div>
               {tabList.map((tab) => (
                 <div key={tab.name} className='flex flex-col'>
                   <div className='flex flex-row items-center justify-between'>

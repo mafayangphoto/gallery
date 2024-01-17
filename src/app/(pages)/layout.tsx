@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <PortalTab/>
             {/* <div className='fixed h-full max-w-fit min-w-[40%] bg-white'>mobile</div> */}
             <MobileTab/>
-        <div>{children}</div>
+            <div >{children}</div>
         </div>
     )
 }
