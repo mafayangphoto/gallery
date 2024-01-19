@@ -23,7 +23,7 @@ function PortalTab() {
                 setDropList([
                     // {key:'beauty',text:'Beauty'},
                     {key:'creative',text:'Creative'},
-                    // {key:'hairstyle',text:'Hair style'},
+                    {key:'hairstyle',text:'Hair style'},
                     {key:'laser',text:'Laser'},
                 ]);
             }
@@ -53,7 +53,7 @@ function PortalTab() {
                         {tab.hasChild && dropList.length > 0 && <div className='absolute border border-orange-100 rounded dropdown flex flex-col' style={{"minWidth":`${tabFloat.width}px`,"top": `${tabFloat.top}px`, "left": `${tabFloat.left}px`}}>
                             {dropList.map((item,index:number) => {
                                 return(
-                                    <Link className='w-full h-10 items-center justify-start flex hover:bg-amber-50' href={`/${tab.name}/${item.key}`} key={index}><span className='ml-[10px]'>{item.text}</span></Link>
+                                    <Link className='w-full h-10 items-center justify-start flex hover:bg-amber-50' href={`/${tab.name}/${item.key}`} key={index} ><span className='ml-[10px]'>{item.text}</span></Link>
                                 )
                             })}
                         </div>}
