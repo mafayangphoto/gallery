@@ -3,284 +3,284 @@ import React from "react";
 export const hairImages = {
     blockOne: [
         {
-            url:'./images/IMG_0024.jpg',
+            url:'./images/IMG_0024.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0125.jpg',
+            url:'./images/IMG_0125.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0158.jpg',
+            url:'./images/IMG_0158.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0438.jpg',
+            url:'./images/IMG_0438.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0555.jpg',
+            url:'./images/IMG_0555.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0677.jpg',
+            url:'./images/IMG_0677.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0718.jpg',
+            url:'./images/IMG_0718.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1051.jpg',
+            url:'./images/IMG_1051.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1085.jpg',
+            url:'./images/IMG_1085.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1181.jpg',
+            url:'./images/IMG_1181.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1221.jpg',
+            url:'./images/IMG_1221.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1326.jpg',
+            url:'./images/IMG_1326.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1419.jpg',
+            url:'./images/IMG_1419.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1441.jpg',
+            url:'./images/IMG_1441.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1442.jpg',
+            url:'./images/IMG_1442.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1545.jpg',
+            url:'./images/IMG_1545.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1611.jpg',
+            url:'./images/IMG_1611.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1638.jpg',
+            url:'./images/IMG_1638.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1691.jpg',
+            url:'./images/IMG_1691.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1825.jpg',
+            url:'./images/IMG_1825.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1919.jpg',
+            url:'./images/IMG_1919.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1976.jpg',
+            url:'./images/IMG_1976.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_2285.jpg',
+            url:'./images/IMG_2285.avif',
             size:'vertical'
         },
     ],
     blockTwo: [
         {
-            url:'./images/IMG_2641.jpg',
+            url:'./images/IMG_2641.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_2810.jpg',
+            url:'./images/IMG_2810.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3280.jpg',
+            url:'./images/IMG_3280.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3454.jpg',
+            url:'./images/IMG_3454.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3581.jpg',
+            url:'./images/IMG_3581.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3649.jpg',
+            url:'./images/IMG_3649.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3789.jpg',
+            url:'./images/IMG_3789.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3947.jpg',
+            url:'./images/IMG_3947.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4056.jpg',
+            url:'./images/IMG_4056.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4124.jpg',
+            url:'./images/IMG_4124.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4224.jpg',
+            url:'./images/IMG_4224.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4304.jpg',
+            url:'./images/IMG_4304.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4351.jpg',
+            url:'./images/IMG_4351.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4474.jpg',
+            url:'./images/IMG_4474.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4510.jpg',
+            url:'./images/IMG_4510.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4563.jpg',
+            url:'./images/IMG_4563.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4620.jpg',
+            url:'./images/IMG_4620.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4649.jpg',
+            url:'./images/IMG_4649.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4680.jpg',
+            url:'./images/IMG_4680.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4743.jpg',
+            url:'./images/IMG_4743.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4771.jpg',
+            url:'./images/IMG_4771.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_6037.jpg',
+            url:'./images/IMG_6037.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_6663.jpg',
+            url:'./images/IMG_6663.avif',
             size:'vertical'
         },
         
     ],
     blockThree: [
         {
-            url:'./images/IMG_6796.jpg',
+            url:'./images/IMG_6796.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_7287.jpg',
+            url:'./images/IMG_7287.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_7442.jpg',
+            url:'./images/IMG_7442.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_7740.jpg',
+            url:'./images/IMG_7740.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_7828.jpg',
+            url:'./images/IMG_7828.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_7861.jpg',
+            url:'./images/IMG_7861.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8019.jpg',
+            url:'./images/IMG_8019.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8023.jpg',
+            url:'./images/IMG_8023.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8224.jpg',
+            url:'./images/IMG_8224.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8360.jpg',
+            url:'./images/IMG_8360.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8424.jpg',
+            url:'./images/IMG_8424.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8580.jpg',
+            url:'./images/IMG_8580.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8713.jpg',
+            url:'./images/IMG_8713.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8787.jpg',
+            url:'./images/IMG_8787.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_8909.jpg',
+            url:'./images/IMG_8909.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9010.jpg',
+            url:'./images/IMG_9010.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9028.jpg',
+            url:'./images/IMG_9028.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9057.jpg',
+            url:'./images/IMG_9057.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9374.jpg',
+            url:'./images/IMG_9374.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9466.jpg',
+            url:'./images/IMG_9466.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9952.jpg',
+            url:'./images/IMG_9952.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_372701.jpg',
+            url:'./images/IMG_372701.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_379101.jpg',
+            url:'./images/IMG_379101.avif',
             size:'vertical'
         },
     ]

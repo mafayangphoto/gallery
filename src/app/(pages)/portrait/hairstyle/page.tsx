@@ -8,8 +8,9 @@ function page() {
         <div className='flex w-full sm:w-2/5'>
             <div >
                 {hairImages.blockOne.map((img,idx:number) => {
+                    console.log(img.url)
                     return(
-                        <div className='p-2.5' key={idx}><Image loading='lazy' placeholder='blur' src={require(`${img.url}`)} alt={`one${idx}`}/></div>
+                        <div className='p-2.5' key={idx}><Image quality={100} loading='lazy' placeholder='blur' src={require(`${img.url}`)} alt={`one${idx}`}/></div>
                     )
                 })}
                 
@@ -19,7 +20,7 @@ function page() {
             <div >
                 {hairImages.blockTwo.map((img,idx:number) => {
                     return(
-                        <div className='p-2.5' key={idx}><Image loading='lazy' placeholder='blur' src={require(`${img.url}`)} alt={`two${idx}`}/></div>
+                        <div className='p-2.5' key={idx}><Image quality={100} loading='lazy' placeholder='blur' src={require(`${img.url}`)} alt={`two${idx}`}/></div>
                     )
                 })}
                 
@@ -29,7 +30,7 @@ function page() {
             <div >
                 {hairImages.blockThree.map((img,idx:number) => {
                     return(
-                        <div className='p-2.5' key={idx}><Image loading='lazy' placeholder='blur' src={require(`${img.url}`)} alt={`three${idx}`}/></div>
+                        <div className='p-2.5' key={idx}><Image quality={100} loading='lazy' placeholder='blur' src={require(`${img.url}`)} alt={`three${idx}`}/></div>
                     )
                 })}
                 
