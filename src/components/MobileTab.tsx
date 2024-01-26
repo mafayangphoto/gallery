@@ -19,7 +19,7 @@ function MobileTab() {
       {key:'hairstyle',text:'Hair style'},
       {key:'laser',text:'Laser'}
     ]},
-    {name:'product',hasChild:true,allowClick:false,isOpen:false,childList:[
+    {name:'product',hasChild:true,allowClick:true,isOpen:false,childList:[
       {key:'accessories',text:'Accessories'},
       {key:'cosmetics',text:'Cosmetics'},
       {key:'food',text:'Food'},

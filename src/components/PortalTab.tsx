@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function PortalTab() {
     // const [tabList] = useState([{name:'Home',hasChild:false,allowClick:true},{name:'portrait',hasChild:true,allowClick:true},{name:'product',hasChild:true,allowClick:false},{name:'event',hasChild:true,allowClick:false},{name:'about',hasChild:false,allowClick:true}])
-    const [tabList] = useState([{name:'Home',hasChild:false,allowClick:true},{name:'portrait',hasChild:true,allowClick:true},{name:'product',hasChild:true,allowClick:false},{name:'event',hasChild:true,allowClick:false}])
+    const [tabList] = useState([{name:'Home',hasChild:false,allowClick:true},{name:'portrait',hasChild:true,allowClick:true},{name:'product',hasChild:true,allowClick:true},{name:'event',hasChild:true,allowClick:false}])
     const [dropList,setDropList] = useState<{key:string,text:string}[]>([]);
     const [tabFloat,setTabFloat] = useState({width:0,top:0,left:0,right:0,bottom:0});
 
