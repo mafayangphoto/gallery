@@ -3,84 +3,105 @@ import React from "react";
 export const portraitImages = {
     blockOne: [
         {
-            url:'./images/2W9A3218.jpg',
+            url:'./images/IMG_1890.webp',
+            size:'vertical'
+        },
+        {
+            url:'./images/nkwoIMG_3069.webp',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4031.webp',
             size:'horizontal'
         },
         {
-            url:'./images/2W9A4031.jpg',
+            url:'./images/2W9A3218.webp',
             size:'horizontal'
         },
         {
-            url:'./images/IMG_7562-1.jpg',
+            url:'./images/IMG_7562-1.webp',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9519.jpg',
+            url:'./images/IMG_9519.webp',
             size:'vertical'
         },
         {
-            url:'./images/IMG_6546.jpg',
+            url:'./images/IMG_6546.webp',
             size:'vertical'
         },
         {
-            url:'./images/IMG_6682.jpg',
+            url:'./images/IMG_6682.webp',
             size:'horizontal'
         },
         
     ],
     blockTwo: [
         {
-            url:'./images/2W9A3809.jpg',
+            url:'./images/IMG_1260.webp',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A7215.webp',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A3809.webp',
             size:'horizontal'
         },
         {
-            url:'./images/2W9A7215.jpg',
+            url:'./images/IMG_9011.webp',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9011.jpg',
-            size:'vertical'
-        },
-        {
-            url:'./images/IMG_9418.jpg',
+            url:'./images/IMG_9418.webp',
             size:'vertical'
         },
         
         {
-            url:'./images/IMG_5896.jpg',
+            url:'./images/IMG_5896.webp',
             size:'horizontal'
         },
         {
-            url:'./images/IMG_6249.jpg',
+            url:'./images/IMG_6249.webp',
             size:'vertical'
         },
         
     ],
     blockThree: [
         {
-            url:'./images/2W9A3840.jpg',
+            url:'./images/mafa_5.webp',
+            size:'vertical'
+        },
+        {
+            url:'./images/nkwoIMG_3266.webp',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A3840.webp',
             size:'horizontal'
         },
         {
-            url:'./images/IMG_755.jpg',
+            url:'./images/IMG_755.webp',
             size:'vertical'
         },
         {
-            url:'./images/IMG_5664.jpg',
+            url:'./images/IMG_5664.webp',
             size:'vertical'
         },
         {
-            url:'./images/IMG_5716.jpg',
+            url:'./images/IMG_5716.webp',
             size:'vertical'
         },
         {
-            url:'./images/IMG_6899.jpg',
+            url:'./images/IMG_6899.webp',
             size:'vertical'
         },
         
-        {
-            url:'./images/nkwoIMG_9184.jpg',
-            size:'vertical'
-        },
+        
+        // {
+        //     url:'./images/nkwoIMG_9184.jpg',
+        //     size:'vertical'
+        // },
     ]
 }
