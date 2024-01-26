@@ -39,7 +39,7 @@ function page() {
       </div>
     </div> */}
     <div className='w-full sm:h-full h-screen bg-[#000]'>
-      <Image loading='lazy' placeholder='empty' src={require(`./images/IMG_0515.jpg`)} alt={`home`}/>
+      <Image loading='lazy' placeholder='empty' src={require(`./images/IMG_0515.avif`)} alt={`home`}/>
     </div>
     {/* <div className='flex flex-col'>
       <Image loading='lazy' placeholder='empty' src={require(`./images/IMG_0515.jpg`)} alt={`home`}/>

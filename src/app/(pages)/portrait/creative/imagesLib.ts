@@ -3,96 +3,104 @@ import React from "react";
 export const creativeImages = {
     blockOne: [
         {
-            url:'./images/IMG_0466.jpg',
+            url:'./images/IMG_0466.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0515.jpg',
+            url:'./images/IMG_0515.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0551.jpg',
+            url:'./images/IMG_0551.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0603.jpg',
+            url:'./images/IMG_0603.avif',
             size:'vertical'
         },
         {
-            url:'./images/mafa_195.jpg',
+            url:'./images/mafa_107.avif',
             size:'vertical'
         },
         {
-            url:'./images/mafa_177.jpg',
+            url:'./images/mafa_195.avif',
             size:'vertical'
         },
         {
-            url:'./images/mafa_166.jpg',
+            url:'./images/mafa_177.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/mafa_166.avif',
             size:'vertical'
         },
     ],
     blockTwo: [
         {
-            url:'./images/IMG_1307.jpg',
+            url:'./images/IMG_1307.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1418.jpg',
+            url:'./images/IMG_1418.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1455.jpg',
+            url:'./images/IMG_1455.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1525.jpg',
+            url:'./images/IMG_1525.avif',
             size:'horizontal'
         },
         {
-            url:'./images/IMG_1589.jpg',
+            url:'./images/IMG_1589.avif',
             size:'vertical'
         },
         {
-            url:'./images/2W9A0994.jpg',
+            url:'./images/2W9A0994.avif',
             size:'vertical'
         },
         {
-            url:'./images/2W9A1304.jpg',
+            url:'./images/2W9A1304.avif',
             size:'vertical'
         },
         {
-            url:'./images/2W9A1333.jpg',
+            url:'./images/2W9A1333.avif',
             size:'vertical'
         },
     ],
     blockThree: [
         {
-            url:'./images/IMG_0203.jpg',
+            url:'./images/IMG_0203.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_0212.jpg',
+            url:'./images/IMG_0212.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1838.jpg',
+            url:'./images/IMG_1838.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1876.jpg',
+            url:'./images/IMG_1876.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1908.jpg',
+            url:'./images/IMG_1908.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_1941.jpg',
+            url:'./images/IMG_1941.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_2920.jpg',
+            url:'./images/IMG_2920.avif',
             size:'vertical'
+        },
+        {
+            url:'./images/IMG_7652.avif',
+            size:'horizontal'
         },
     ]
 }
