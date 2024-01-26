@@ -3,107 +3,111 @@ import React from "react";
 export const cosmeticsImages = {
     blockOne: [
         {
-            url:'./images/2W9A9929.jpg',
+            url:'./images/IMG_9811.avif',
             size:'vertical'
         },
         {
-            url:'./images/2W9A9947.jpg',
+            url:'./images/2W9A9929.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO1288.jpg',
+            url:'./images/2W9A9947.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO1307.jpg.tmp.jpeg',
+            url:'./images/NKWO1288.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/NKWO1307.jpg.tmp.avif',
             size:'horizontal'
         },
         {
-            url:'./images/NKWO1338.jpg',
+            url:'./images/NKWO1338.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO1363.jpg',
+            url:'./images/NKWO1363.avif',
             size:'horizontal'
         },
         {
-            url:'./images/NKWO1904.jpg',
+            url:'./images/NKWO1904.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO1934.jpg',
-            size:'horizontal'
-        },
-        {
-            url:'./images/NKWO2041.jpg',
+            url:'./images/NKWO1934.avif',
             size:'horizontal'
         },
     ],
     blockTwo: [
         {
-            url:'./images/IMG_0141.jpg',
+            url:'./images/IMG_0141.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3673.jpg',
+            url:'./images/IMG_3673.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_3794-2.jpg',
+            url:'./images/IMG_3794-2.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_4300-3.jpg',
+            url:'./images/IMG_4300-3.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_5393.jpg',
+            url:'./images/IMG_5393.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_7153.jpg',
+            url:'./images/IMG_7153.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_9167.jpg',
+            url:'./images/IMG_9167.avif',
             size:'vertical'
+        },
+        {
+            url:'./images/NKWO2041.avif',
+            size:'horizontal'
         },
     ],
     blockThree: [
         {
-            url:'./images/IMG_2515.jpg',
+            url:'./images/IMG_2515.avif',
             size:'vertical'
         },
         {
-            url:'./images/IMG_2475.jpg',
+            url:'./images/IMG_2475.avif',
             size:'horizontal'
         },
         {
-            url:'./images/NKWO1967.jpg',
+            url:'./images/NKWO1967.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO1984.jpg',
+            url:'./images/NKWO1984.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO1998.jpg',
+            url:'./images/NKWO1998.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO2080.jpg',
+            url:'./images/NKWO2080.avif',
             size:'vertical'
         },
         {
-            url:'./images/NKWO2083.jpg',
+            url:'./images/NKWO2083.avif',
             size:'horizontal'
         },
         {
-            url:'./images/NKWO2090.jpg',
+            url:'./images/NKWO2090.avif',
             size:'horizontal'
         },
         {
-            url:'./images/NKWO2152.jpg',
+            url:'./images/NKWO2152.avif',
             size:'vertical'
         },
     ]
