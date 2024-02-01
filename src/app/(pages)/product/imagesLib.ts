@@ -3,7 +3,7 @@ import React from "react";
 export const productImages = {
     blockOne: [
         {
-            url:'./images/IMG_7061.avif',
+            url:'./images/IMG_4674.avif',
             size:'vertical'
         },
         {
@@ -23,7 +23,7 @@ export const productImages = {
     ],
     blockThree: [
         {
-            url:'./images/IMG_4674.avif',
+            url:'./images/IMG_7061.avif',
             size:'vertical'
         },
         {

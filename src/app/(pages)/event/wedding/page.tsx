@@ -5,9 +5,8 @@ import { portalWeddingImages, mobileWeddingImages } from './imagesLib';
 
 function page() {
   return (
-    <>
-    <div className='w-full hidden flex-col sm:flex'>
-        { portalWeddingImages.map((items) => 
+    <div className='w-full flex flex-col'>
+        <div className='hidden sm:block'>{ portalWeddingImages.map((items) => 
             items.length === 1 ? 
             items.map((images) => (
                 <div className='w-full p-1'><Image quality={100} loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
@@ -35,10 +34,8 @@ function page() {
                 ))}
             </div>
              : '' 
-        )}
-    </div>
-    <div className='w-full flex flex-col sm:hidden'>
-        { mobileWeddingImages.map((items) => 
+        )}</div>
+        <div className='sm:hidden'>{ mobileWeddingImages.map((items) => 
             items.length === 1 ? 
             items.map((images) => (
                 <div className='w-full p-1'><Image loading='lazy' placeholder='blur' src={require(`${images.url}`)} alt={images.url}/></div>
@@ -56,9 +53,8 @@ function page() {
                 ))}
             </div>
              : '' 
-        )}
+        )}</div>
     </div>
-    </>
   )
 }
 
