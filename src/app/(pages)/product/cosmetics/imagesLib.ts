@@ -3,6 +3,26 @@ import React from "react";
 export const cosmeticsImages = {
     blockOne: [
         {
+            url:'./images/2-06.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0757.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0896.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A1216.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/IMG_7305.avif',
+            size:'vertical'
+        },
+        {
             url:'./images/IMG_9811.avif',
             size:'vertical'
         },
@@ -41,6 +61,22 @@ export const cosmeticsImages = {
     ],
     blockTwo: [
         {
+            url:'./images/2-26.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0804.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0948.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A1229.avif',
+            size:'vertical'
+        },
+        {
             url:'./images/IMG_0141.avif',
             size:'vertical'
         },
@@ -74,6 +110,26 @@ export const cosmeticsImages = {
         },
     ],
     blockThree: [
+        {
+            url:'./images/2-50.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0837.avif',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A1248.avif',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A1174.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/IMG_7216-2.avif',
+            size:'vertical'
+        },
         {
             url:'./images/IMG_2515.avif',
             size:'vertical'

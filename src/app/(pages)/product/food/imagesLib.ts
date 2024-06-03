@@ -1,6 +1,34 @@
 export const foodImages = {
     blockOne: [
         {
+            url:'./images/2W9A4793.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A5037.avif',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A5083.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A7957.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A8163.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A8292-1.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/140A0725.avif',
+            size:'vertical'
+        },
+        {
             url:'./images/IMG_3638.avif',
             size:'horizontal'
         },
@@ -15,6 +43,34 @@ export const foodImages = {
     ],
     blockTwo: [
         {
+            url:'./images/2W9A4942.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A5003.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A7947.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A7998.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A8182.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A8803.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/140A0771.avif',
+            size:'vertical'
+        },
+        {
             url:'./images/IMG_4423.avif',
             size:'horizontal'
         },
@@ -24,6 +80,34 @@ export const foodImages = {
         }
     ],
     blockThree: [
+        {
+            url:'./images/2W9A4798.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A5024.avif',
+            size:'horizontal'
+        },
+        {
+            url:'./images/2W9A5089.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A8063-1.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A8192.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/140A0665.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/140A0792.avif',
+            size:'vertical'
+        },
         {
             url:'./images/nkwo2W9A2297.avif',
             size:'horizontal'

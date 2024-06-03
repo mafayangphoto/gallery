@@ -38,8 +38,8 @@ function page() {
         </figure>
       </div>
     </div> */}
-    <div className='w-full sm:h-full h-screen bg-[#000]'>
-      <Image loading='lazy' placeholder='empty' src={require(`./images/IMG_0515.avif`)} alt={`home`}/>
+    <div className='w-full sm:h-full h-screen bg-[#101317]' >
+      <Image placeholder='empty' className="animate-fade-in" src={require(`./images/photographer.avif`)} alt={`home`} priority/>
     </div>
     {/* <div className='flex flex-col'>
       <Image loading='lazy' placeholder='empty' src={require(`./images/IMG_0515.jpg`)} alt={`home`}/>
