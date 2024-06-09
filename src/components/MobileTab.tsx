@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { HiBars3, HiOutlineXMark, HiHome } from "react-icons/hi2";
 import { MdPortrait, MdOutlineEmail } from "react-icons/md";
@@ -28,7 +29,8 @@ function MobileTab() {
       {key:'wedding',text:'Wedding'},
     ]},
     // {name:'about',hasChild:false,allowClick:true,isOpen:false}
-  ])
+  ]);
+  const pathname = usePathname();
 
   const onBarClick = (tab:any) => {
     const updatedItems = tabList.map((item) =>
@@ -39,7 +41,7 @@ function MobileTab() {
   
   return (
     <div>
-      <div className={`fixed top-10 left-10 sm:hidden ${isBarOpen && 'hidden'}`} onClick={() => {setIsBarOpen(true)}}><HiBars3 className='text-zinc-800 active:text-zinc-400' size={40}/></div>
+      <div className={`absolute z-20 top-10 left-10 sm:hidden ${isBarOpen && 'hidden'}`} onClick={() => {setIsBarOpen(true)}}><HiBars3 className={` ${ (pathname === '/Home' || pathname === '/event/wedding') && 'text-white' }`} size={40}/></div>
       <div className={`fixed w-full h-full sm:hidden bg-stone-100 transition-transform transform flex flex-col ${isBarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
           <div className='flex items-center justify-end'><div className='mr-2.5 mt-2.5' onClick={() => {setIsBarOpen(false)}}><HiOutlineXMark className='text-zinc-800 active:text-zinc-400' size={40}/></div></div>
           <div className='grow '>
