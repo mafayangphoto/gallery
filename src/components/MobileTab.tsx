@@ -1,14 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
-import Link from 'next/link';
-import { HiBars3, HiOutlineXMark, HiHome } from "react-icons/hi2";
-import { MdPortrait, MdOutlineEmail } from "react-icons/md";
-import { FaRegCalendarCheck, FaEnvelope } from "react-icons/fa";
-import { GrContactInfo } from "react-icons/gr";
-import { FiBox } from "react-icons/fi";
-import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
-import { IoLogoInstagram } from "react-icons/io5";
 import 'animate.css/animate.min.css';
 import { useAnimate, stagger } from "framer-motion";
 import Menu from './Menu';
