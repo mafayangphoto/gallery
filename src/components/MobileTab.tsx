@@ -38,7 +38,7 @@ function MobileTab() {
     const [scope, animate] = useAnimate();
   
     useEffect(() => {
-      const menuAnimations = isOpen
+      const menuAnimations: [string, Record<string, any>, Record<string, any>][] = isOpen
         ? [
             [
               "nav",
