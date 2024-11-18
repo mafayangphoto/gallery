@@ -227,7 +227,7 @@ code {
   bottom: 0;
   width: 400px;
   background: var(--accent);
-  padding-top: 100px;
+  padding-top: 80px;
   transform: translateX(-100%);
   will-change: transform;
 }
