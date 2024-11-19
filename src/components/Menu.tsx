@@ -14,7 +14,7 @@ function Menu({ isOpen, setIsOpen }: { isOpen: boolean, setIsOpen: React.Dispatc
     {name:'portrait',hasChild:true,allowClick:true,isOpen:false,childList:[
       {key:'creative',text:'Creative'},
       {key:'hairstyle',text:'Hair style'},
-      {key:'laser',text:'Laser'}
+      // {key:'laser',text:'Laser'}
     ]},
     {name:'product',hasChild:true,allowClick:true,isOpen:false,childList:[
       {key:'accessories',text:'Accessories'},

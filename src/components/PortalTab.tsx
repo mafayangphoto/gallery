@@ -24,7 +24,7 @@ function PortalTab() {
                     // {key:'beauty',text:'Beauty'},
                     {key:'creative',text:'Creative'},
                     {key:'hairstyle',text:'Hair style'},
-                    {key:'laser',text:'Laser'},
+                    // {key:'laser',text:'Laser'},
                 ]);
             }
             if(from === 'product') {

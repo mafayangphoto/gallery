@@ -3,6 +3,34 @@ import React from "react";
 export const creativeImages = {
     blockOne: [
         {
+            url:'./images/2W9A0061.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0277.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0071.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A0211.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4192.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4293.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4462.avif',
+            size:'vertical'
+        },
+        {
             url:'./images/IMG_0466.avif',
             size:'vertical'
         },
@@ -37,6 +65,18 @@ export const creativeImages = {
     ],
     blockTwo: [
         {
+            url:'./images/2W9A4376.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4403.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4465.avif',
+            size:'vertical'
+        },
+        {
             url:'./images/IMG_1307.avif',
             size:'vertical'
         },
@@ -70,6 +110,18 @@ export const creativeImages = {
         },
     ],
     blockThree: [
+        {
+            url:'./images/2W9A4251.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4486.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/2W9A4480.avif',
+            size:'vertical'
+        },
         {
             url:'./images/IMG_0203.avif',
             size:'vertical'
