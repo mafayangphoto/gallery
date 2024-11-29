@@ -50,18 +50,6 @@ export const creativeImages = {
             url:'./images/mafa_107.avif',
             size:'vertical'
         },
-        {
-            url:'./images/mafa_195.avif',
-            size:'vertical'
-        },
-        {
-            url:'./images/mafa_177.avif',
-            size:'vertical'
-        },
-        {
-            url:'./images/mafa_166.avif',
-            size:'vertical'
-        },
     ],
     blockTwo: [
         {
@@ -106,6 +94,14 @@ export const creativeImages = {
         },
         {
             url:'./images/2W9A1333.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/mafa_177.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/mafa_195.avif',
             size:'vertical'
         },
     ],
@@ -153,6 +149,10 @@ export const creativeImages = {
         {
             url:'./images/IMG_7652.avif',
             size:'horizontal'
+        },
+        {
+            url:'./images/mafa_166.avif',
+            size:'vertical'
         },
     ]
 }

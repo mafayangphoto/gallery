@@ -7,10 +7,13 @@ import { GrContactInfo } from "react-icons/gr";
 import { FiBox } from "react-icons/fi";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io5";
+import { AiOutlineProduct } from "react-icons/ai";
+
 
 function Menu({ isOpen, setIsOpen }: { isOpen: boolean, setIsOpen: React.Dispatch<React.SetStateAction<boolean>> }) {
   const [ tabList,setTabList ] = useState([
     {name:'Home',hasChild:false,allowClick:true,isOpen:false},
+    {name:'beauty',hasChild:false,allowClick:true,isOpen:false},
     {name:'portrait',hasChild:true,allowClick:true,isOpen:false,childList:[
       {key:'creative',text:'Creative'},
       {key:'hairstyle',text:'Hair style'},
@@ -50,7 +53,7 @@ function Menu({ isOpen, setIsOpen }: { isOpen: boolean, setIsOpen: React.Dispatc
             <li key={tab.name} className='flex flex-col'>
               <div className='flex flex-row items-center justify-between'>
                 <Link className='pl-5 h-14 flex flex-row items-center justify-start' href={tab.allowClick ? `/${tab.name}` : ''} onClick={() => setIsOpen(false)}>
-                  { tab.name === 'Home' ? <HiHome className='text-white' size={26} /> : tab.name === 'portrait' ? <MdPortrait className='text-white' size={30} /> : tab.name === 'product' ? <FiBox className='text-white' size={30} /> : tab.name === 'event' ? <div className='w-[30px] flex items-center justify-center'><FaRegCalendarCheck className='text-white' size={26} /></div> : <GrContactInfo className='text-white' size={30} />}
+                  { tab.name === 'Home' ? <HiHome className='text-white' size={26} /> : tab.name === 'beauty' ? <AiOutlineProduct className='text-white' size={30} /> : tab.name === 'portrait' ? <MdPortrait className='text-white' size={30} /> : tab.name === 'product' ? <FiBox className='text-white' size={30} /> : tab.name === 'event' ? <div className='w-[30px] flex items-center justify-center'><FaRegCalendarCheck className='text-white' size={26} /></div> : <GrContactInfo className='text-white' size={30} />}
                   <span className='ml-2 text-2xl'>{tab.name.charAt(0).toUpperCase() + tab.name.slice(1)}</span>
                 </Link>
                 { tab.hasChild && ( tab.isOpen ? <div className='mr-5 w-[24px]' onClick={() => {onBarClick(tab)}}><IoIosArrowUp className='text-white' size={28}/></div> : <div className='mr-5 w-[24px]' onClick={() => {onBarClick(tab)}}><IoIosArrowDown className='text-white' size={26}/></div> )}
