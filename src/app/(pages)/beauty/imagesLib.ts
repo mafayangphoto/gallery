@@ -11,19 +11,29 @@ export const beautyImages = {
             size:'vertical'
         },
         {
-            url:'./images/2W9A9706.avif',
+            url:'./images/IMG_7562.avif',
+            size:'vertical'
+        },
+        {
+            url:'./images/IMG_8456.avif',
+            size:'vertical'
+        },
+    ],
+    blockTwo: [
+        {
+            url:'./images/IMG_8560.avif',
             size:'vertical'
         },
         {
             url:'./images/IMG_5061.avif',
             size:'vertical'
         },
-    ],
-    blockTwo: [
         {
             url:'./images/IMG_5152.avif',
             size:'vertical'
         },
+    ],
+    blockThree: [
         {
             url:'./images/IMG_5173.avif',
             size:'vertical'
@@ -32,18 +42,8 @@ export const beautyImages = {
             url:'./images/IMG_5214.avif',
             size:'vertical'
         },
-    ],
-    blockThree: [
         {
-            url:'./images/IMG_7562.avif',
-            size:'vertical'
-        },
-        {
-            url:'./images/IMG_8456.avif',
-            size:'vertical'
-        },
-        {
-            url:'./images/IMG_8560.avif',
+            url:'./images/2W9A9706.avif',
             size:'vertical'
         },
     ]
